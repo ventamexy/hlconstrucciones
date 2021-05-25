@@ -6,3 +6,9 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^/?$ "https\:\/\/hlconstrucciones\.com\/" [R=301,L]
 
+git config --global user.ventamexy "ventamexy"
+
+git config --global user.name "ventamexy"
+git config --global user.email venta.mexy@gmail.com
+
+git remote set-url origin https://ventamexy@github.com/ventamexy/hlconstrucciones.git
