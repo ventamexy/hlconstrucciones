@@ -24,6 +24,8 @@
 */	
 $(document).ready(function() {
     // "use strict";
+    
+    $(".anio-actual").text(new Date().getFullYear());
 
     /* ------------------  1.Loading Screen ------------------ */
 	
