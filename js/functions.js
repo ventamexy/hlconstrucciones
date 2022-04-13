@@ -23,7 +23,7 @@
 	20. Shop Pricing Range
 */	
 $(document).ready(function() {
-    "use strict";
+    // "use strict";
 
     /* ------------------  1.Loading Screen ------------------ */
 	
