@@ -62,6 +62,9 @@ body {
 	margin: 0
 }
 
+span {
+	display: block;
+}
 
 /*------------------------------------*\
 #FOOTER-SECTION

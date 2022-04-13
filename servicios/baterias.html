@@ -10,23 +10,21 @@
 <meta name="author" content="wplly" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="../img/pantone.ico" rel="icon">
-
 <!-- Fonts
 ============================================= -->
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:100,200,300,400,500,600,700,800%7CDroid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-
+<link
+href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:100,200,300,400,300,600,700,800%7CDroid+Serif:400,400italic,700,700italic'
+rel='stylesheet' type='text/css'>
 <!-- Stylesheets
 ============================================= -->
 <link href="../css/external.css" rel="stylesheet">
 <!-- Extrnal CSS -->
-<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../assets/bootstrap/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 <!-- Boostrap Core CSS -->
 <link href="../css/style.css" rel="stylesheet">
 <!-- Style CSS -->
-<link rel="stylesheet" href="../css/Estilo.css">
-
-<!-- Document Title
-============================================= -->
+<link rel="stylesheet" href="../css/estilos.css">
+<link rel="stylesheet" href="../css/otrosEstilos.css">
 </head>
 <body>
 <div class="preloader">
@@ -40,42 +38,57 @@
 	</div>
 </div>
 <header id="navbar-spy" class="transparent-header">
-	<nav id="primary-menu" class="navbar navbar-fixed-top style-1">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="logo" href="index.html">
-					<img src="../img/pantone.png"  height="50px" width="50px"> <span class="logo">CONSTRUCCIONES HERNANDEZ</span>
-					<span class="sublogo">SERVICIOS Y MANTENIMIENTO</span>
-				</a>
-			</div>
-			
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-left">
-					<li class="has-dropdown">
-						<a href="../index.html" class="dropdown-toggle">Inicio</a>
-					</li>
-					<li class="has-dropdown">
-						<a href="../servicios.html" class="dropdown-toggle">Servicios</a>				
-					</li>	
-					<li class="has-dropdown">
-						<a href="../nosotros.html" class="dropdown-toggle">Nosotros</a>				
-					</li>								
-				</ul>
-			</div>
+	<nav id="primary-menu" class="navbar navbar-fixed-top style-1 p-0">
+		<div class="container-fluid m-0 p-0">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark menuDeplegablePrincipal w-100">
+				<div class="row w-100 align-items-center">
+					<div class="col-12 col-md-4">
+						<a class="contenedor-logo row" href="../index.html">
+							<div class="col-3 d-flex justify-content-center align-items-center">
+								<img src="../img/pantone.png" height="30px" width="30px">
+							</div>
+							<span class="col-6 d-flex flex-wrap text-logo">
+								<span class="color-amarillo">HLCONSTRUCCIONES</span>
+								<span>SERVICIOS Y MANTENIMIENTO</span>
+								<span class="w-100">753-535-66-05</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-12 col-md-8">
+						<div class="container">
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+								data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse justify-content-end" id="navbarNavDarkDropdown">
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown">
+										<a href="../index.html">Inicio</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a href="../servicios.html">Servicios</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a href="../nosotros.html">Nosotros</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a href="../galeria.html">Galeria</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a href="../informacion.html">Información</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
 			<!-- /.navbar-collapse -->
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
 </header>
-
 <section class="bg-overlay bg-overlay-gradient pb-0">
     <div class="bg-section" >
         <img src="../img/img14/20.jpg" alt="Background"/>
@@ -130,9 +143,6 @@
 			
 <!-- .container end -->
 </section>
-
-
-
 <footer id="footer" class="footer-1">
 	<!-- Contact Bar
 	============================================= -->
@@ -141,36 +151,40 @@
 			<div class="col-xs-12 col-sm-12 col-md-12">
 				<div class="widgets-contact">
 					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-4 widget">
-							<div id="collapse02-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-								<div class="panel-body service-content">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.074839260715!2d-102.19794504988884!3d17.96097788767707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84315c6f0de1739f%3A0xb14c1f83e306c021!2sNicol%C3%A1s+Bravo+341%2C+Centro%2C+60950+L%C3%A1zaro+C%C3%A1rdenas%2C+Mich.!5e1!3m2!1ses-419!2smx!4v1548811324474" width="100%" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
-								</div>
-							</div>
+						<div class="col-12 col-md-4 widget">
+							<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.074839260715!2d-102.19794304988884!3d17.96097788767707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84315c6f0de1739f%3A0xb14c1f83e306c021!2sNicol%C3%A1s+Bravo+341%2C+Centro%2C+60930+L%C3%A1zaro+C%C3%A1rdenas%2C+Mich.!5e1!3m2!1ses-419!2smx!4v1548811324474"
+							width="100%" height="130" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
-						<!-- .widget end -->
-						<div class="col-xs-12 col-sm-12 col-md-4 widget">
+						<div class="col-12 col-md-4 widget mt-3 row">
 							<div class="widget-contact-icon pull-left">
 								<i class="fa fa-envelope-o float-left"></i>
 							</div>
-							<div class="widget-contact-info">
-								<p class="text-capitalize text-white">Correos</p>
-								<p class="text-capitalize font-heading minusculas padding-top-10">construccionlc@yahoo.com</p>
-								<p class="text-capitalize font-heading minusculas">manttoysushndez@yahoo.com</p>
+							<div class="widget-contact-info mt-3 row">
+								<div class="col-12 font-size-14">
+									<p class="text-capitalize text-white titulo-opc-header">Correos:</p>
+									<div class="color-amarillo">
+										<p class="font-heading minusculas">info@hlconstrucciones.com</p>
+										<p class="font-heading minusculas">construccionlc@yahoo.com</p>
+									</div>
+								</div>
 							</div>
 						</div>
-						<!-- .widget end -->
-						<div class="col-xs-12 col-sm-12 col-md-4 widget">
+						<div class="col-12 col-md-4 widget mt-3 row">
 							<div class="widget-contact-icon pull-left">
 								<i class="fa fa-phone float-left"></i>
 							</div>
-							<div class="widget-contact-info">									
-								<p class="text-capitalize text-white">Llamanos</p>
-								<p class="text-capitalize font-heading padding-top-10">Tels: 753-537-1349</p>
-								<p class="text-capitalize font-heading">Cel: 753-168-3407</p>
+							<div class="widget-contact-info mt-3 row">
+								<div class="col-12 font-size-14">
+									<p class="text-capitalize text-white titulo-opc-header">Teléfonos:</p>
+									<div class="color-amarillo">
+										<p class="font-heading minusculas">+52 (753) 537 1349</p>
+										<p class="font-heading minusculas">+52 (753) 181 1195</p>
+										<p class="font-heading minusculas">+52 (753) 168 3407</p>
+									</div>
+								</div>
 							</div>
 						</div>
-						<!-- .widget end -->
 					</div>
 					<!-- .row end -->
 				</div>
@@ -188,8 +202,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 mb-30-xs mb-30-sm">
 				<div class="widget-social-info pull-left text-capitalize pull-none-xs mb-15-xs">
-					<p class="mb-0">Siguenos<br>
-						en nuestras redes sociales</p>
+					<p class="mb-0">Siguenos<br>en nuestras redes sociales</p>
 				</div>
 				<div class="widget-social-icon pull-right text-right pull-none-xs">
 					<a href="https://www.facebook.com/construcciones.hernandez.754" target=”_blank”>
@@ -208,28 +221,31 @@
 						<i class="fa fa-facebook"></i><i class="fa fa-facebook"></i>
 					</a>
 					<a href="https://m.facebook.com/Tejaartesanal/?_rdr" target=”_blank”>
-                        <i class="fa fa-facebook"></i><i class="fa fa-facebook"></i>
-                    </a>
+						<i class="fa fa-facebook"></i><i class="fa fa-facebook"></i>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	
 	<!-- Copyrights
 	============================================= -->
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 copyrights text-center">
-				<p class="text-capitalize">© 2018 <a href="https://www.devector.com.mx/" target=”_blank”>DeVector</a>. all rights reserved</p>
+				<p class="text-capitalize d-flex justify-content-center">©&nbsp;<span class="anio-actual">2021</span>&nbsp;DeVector.&nbsp;&nbsp;all rights reserved</p>
 			</div>
 		</div>
 	</div>
 </footer>
-
 <!-- Footer Scripts
 ============================================= -->
 <script src="../js/jquery-2.1.1.min.js"></script>
 <script src="../js/plugins.js?v=1.0.0"></script>
 <script src="../js/functions.js?v=1.2.0"></script>
+<script src="../assets/bootstrap/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v10.0&appId=502654373424425&autoLogAppEvents=1"
+nonce="IFGieTT6"></script>
 </body>
 </html>

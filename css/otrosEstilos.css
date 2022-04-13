@@ -82,11 +82,20 @@ a {
     font-size: 14px!important;
 }
 
+.m-l-33 {
+    margin-left: 33px;
+}
+
 /**
 *
 * Header
 *
 */
+
+.breadcrumb {
+    display: flex;
+    justify-content: center;
+}
 
 .bg-section {
     height: 1050px!important;
