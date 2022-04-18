@@ -38,10 +38,6 @@ li[data-filter]:hover, li[data-filter]:active {
     border-radius: 0!important;
 }
 
-img {
-    width: 340px;
-}
-
 .filtr-item {
     overflow: hidden;
 }
