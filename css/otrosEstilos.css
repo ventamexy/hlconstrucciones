@@ -173,11 +173,16 @@ ol li {
 }
 
 /* Títulos */
-.contenedor-title-seccion *, .titulo-before h1 {
+.contenedor-title-seccion *, .titulo-before h1, .titulo-frm {
     font-family: "Playfair Display", serif;
     color: #d7ca12;
     border-bottom: 3px solid #f8ee68;
     text-align: center;
+}
+
+.titulo-frm {
+    border-bottom-style: dashed;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .titulo-before h1 {
@@ -242,7 +247,7 @@ textarea[name="mensaje"] {
     border-color: #facd8a;
 }
 
-.btnEnviarMensaje:hover {
+.btnEnviarMensaje:hover, .btnEnviarMensaje:disabled {
     background-color: #fac26e!important;
     border-color: #fac26e!important;
 }
