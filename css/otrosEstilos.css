@@ -298,6 +298,7 @@ textarea[name="mensaje"] {
         position: absolute;
         top: 9px;
         right: 23px;
+        z-index: 2;
     }
 
 }
