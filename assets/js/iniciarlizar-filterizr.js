@@ -35,13 +35,3 @@ let options = {
 }
 
 filter.filterizr('setOptions', options);
-
-$(document).on("mouseover", ".filtr-item", function() {
-  let barraImagen = $(this)[0].childNodes[3];
-  barraImagen.classList.add("barra-baja-activa");
-});
-
-$(document).on("mouseout", ".filtr-item", function() {
-  let barraImagen = $(".filtr-item .barra-baja");
-  barraImagen.removeClass("barra-baja-activa").addClass("barra-baja");
-});
