@@ -1,3 +1,11 @@
+/* .contenedor-filterizr {
+    justify-content: center;
+}
+
+.filter-container {
+    width: 80%!important;
+} */
+
 .menu-filteriz {
     display: flex;
     align-items: center;
@@ -39,6 +47,7 @@ li[data-filter]:hover, li[data-filter]:active {
 }
 
 .filtr-item {
+    /* width: 100%; */
     overflow: hidden;
 }
 
