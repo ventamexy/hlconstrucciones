@@ -1430,7 +1430,7 @@ footer {
 	border: none;
 }
 
-.navbar-nav>li.active {
+.navbar-nav>li.active, .item-activo {
 	border-bottom: 2px solid #ffc527;
 }
 
@@ -3613,6 +3613,7 @@ footer {
 		left: 50%;
 		margin-left: -35px;
 		text-align: center;
+		z-index: -1;
 	}
 
 	.page-title.title-2 .title-bg:before {
