@@ -338,6 +338,23 @@ textarea[name="mensaje"] {
     }
 }
 
+@media (max-width:333px) {
+
+    .contenido-serivicios {
+        padding: 0!important;
+    }
+    
+}
+
+@media (max-width:333px) {
+
+    .contenidoSeccion div {
+        height: auto;
+    }
+    
+}
+
+
 @media (max-width:319px) {
 
     .page-title > * {
