@@ -9844,3 +9844,13 @@ footer hr {
 		padding-bottom: 120px;
 	}
 }
+
+@media (max-width:320px) {
+
+	.container>.navbar-collapse {
+		width: 100%;
+		background-color: #2f2f2f;
+		margin-right: 0
+	}
+	
+}

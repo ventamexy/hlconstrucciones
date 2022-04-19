@@ -294,6 +294,29 @@ textarea[name="mensaje"] {
         margin-top: 23px;
     }
 
+    .navbar-toggler {
+        position: absolute;
+        top: 9px;
+        right: 23px;
+    }
+
+}
+
+@media (max-width:575px) {
+    
+    .contenedorBotonMenu {
+        position: absolute;
+        top: 0;
+    }
+
+}
+
+@media (max-width:440px) {
+
+    .titulo-before h1 {
+        font-size: 30px;
+    }
+
 }
 
 @media (max-width:426px) {
@@ -305,10 +328,20 @@ textarea[name="mensaje"] {
 
 }
 
-@media (max-width:440px) {
-
-    .titulo-before h1 {
-        font-size: 30px;
+@media (max-width:419px) {
+    .navbar-collapse {
+        padding: 22px;
+        margin-top: 0;
+        position: fixed;
+        top: 0;
     }
+}
+
+@media (max-width:319px) {
+
+    .page-title > * {
+        font-size: 20px!important;
+        line-height: 0.9!important;
+    }   
 
 }
