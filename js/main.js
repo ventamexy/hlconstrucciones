@@ -22,9 +22,9 @@ window.addEventListener("load", function() {
     });
 
     // Movimiento scroll
-    // $(window).scroll(function() {
-    //     let scrollY = $(this)[0].scrollY;
-    //     console.log(scrollY);
-    // });
+    $(window).on("scroll", function() {
+        let scrollY = $(this)[0].scrollY;
+        console.log(scrollY);
+    });
 
 });
