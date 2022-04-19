@@ -21,10 +21,14 @@ window.addEventListener("load", function() {
         barraImagen.removeClass("barra-baja-activa").addClass("barra-baja");
     });
 
-    // Movimiento scroll
-    $(window).on("scroll", function() {
-        let scrollY = $(this)[0].scrollY;
-        console.log(scrollY);
-    });
+});
 
+// Movimiento scroll
+$(document).on("scroll", function() {
+    let scrollY = $(this)[0].scrollingElement.scrollTop;
+    if ( scrollY >= 200 ) {
+        $(".navbar")[1].classList.add("menu-fijado");
+    } else {
+        $(".navbar")[1].classList.remove("menu-fijado");
+    }
 });

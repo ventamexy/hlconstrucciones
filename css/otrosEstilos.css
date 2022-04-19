@@ -286,6 +286,14 @@ textarea[name="mensaje"] {
     background-color: #232323;
 }
 
+.menu-fijado {
+    position: fixed;
+    top: 0;
+    transition: 0.5s;
+}
+
+/* Media querys */
+
 @media (max-width:991px) {
 
     .navbar-collapse {
