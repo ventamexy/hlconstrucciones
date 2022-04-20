@@ -32,3 +32,11 @@ $(document).on("scroll", function() {
         $(".navbar")[1].classList.remove("menu-fijado");
     }
 });
+
+$(document).on("click", ".irAbajo", function(){
+    let alturaScrollY = $("window").context.scrollingElement.offsetHeight;
+    window.scroll({
+        top: alturaScrollY,
+        behavior: 'smooth'
+    });
+});
