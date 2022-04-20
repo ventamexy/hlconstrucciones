@@ -342,6 +342,21 @@ textarea[name="mensaje"] {
     margin-bottom: 0;
 }
 
+.otrasRedesSociales .icono {
+    font-size: 46px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.red-social-nombre-empresa {
+    font-size: 20px;
+}
+
+.hr-centrada {
+    width: 90%;
+    margin: 0px auto;
+}
+
 @media (max-width:575px) {
     
     .contenedorBotonMenu {
