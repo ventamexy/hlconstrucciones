@@ -372,7 +372,31 @@ textarea[name="mensaje"] {
     right: 40px;
     border: 0;
     box-shadow: 0px 0px 10px 3px #6e6e6e;
-    z-index: 2;
+    z-index: 3;
+}
+
+.tituloEquipoTrabajo {
+    color: #fff;
+    text-align: center;
+    border-bottom: 3px solid #ffc527;
+}
+
+.tituloVacantes {
+    font-size: 25px;
+    text-align: center;
+    background-color: #cc0001!important;
+    border-color: #cc0001!important;
+}
+
+.contenedorVacantes li:nth-child(1n+2) {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.contenedorVacantes .list-group-item:hover {
+    background-color: rgb(241 178 178);
+    border: 1px solid rgb(241 178 178);
+    color: #fff;
 }
 
 @media (max-width:959px) {
