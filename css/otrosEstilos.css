@@ -331,6 +331,10 @@ textarea[name="mensaje"] {
     border-bottom: unset!important;
 }
 
+.contenedorMapa iframe {
+    width: 100%;
+}
+
 @media (max-width:575px) {
     
     .contenedorBotonMenu {
