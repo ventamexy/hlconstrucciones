@@ -325,6 +325,7 @@ textarea[name="mensaje"] {
 #primary-menu, header {
     height: 143px!important;
     background: #232323;
+    z-index: 3;
 }
 
 .transparent-header .navbar {
