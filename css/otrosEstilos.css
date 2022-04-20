@@ -311,6 +311,26 @@ textarea[name="mensaje"] {
 
 }
 
+/* Estilos cambios */
+.logo-empresa {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#primary-menu, header {
+    height: 143px!important;
+    background: #232323;
+}
+
+.transparent-header .navbar {
+    height: 143px!important;
+}
+
+.navbar {
+    border-bottom: unset!important;
+}
+
 @media (max-width:575px) {
     
     .contenedorBotonMenu {
