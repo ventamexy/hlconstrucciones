@@ -357,6 +357,12 @@ textarea[name="mensaje"] {
     margin: 0px auto;
 }
 
+@media (max-width:959px) {
+    .contenedor-principal-logo {
+        margin-left: 10px;
+    }
+}
+
 @media (max-width:575px) {
     
     .contenedorBotonMenu {
