@@ -335,6 +335,13 @@ textarea[name="mensaje"] {
     width: 100%;
 }
 
+.widgets-contact .widget-contact-info p:last-child {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
 @media (max-width:575px) {
     
     .contenedorBotonMenu {
