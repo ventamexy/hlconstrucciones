@@ -392,13 +392,13 @@ textarea[name="mensaje"] {
 }
 
 #primary-menu, header {
-    height: 143px!important;
+    height: auto;
     background: #232323;
     z-index: 3;
 }
 
 .transparent-header .navbar {
-    height: 143px!important;
+    height: auto;
 }
 
 .navbar {
@@ -469,6 +469,12 @@ textarea[name="mensaje"] {
     color: #fff;
 }
 
+@media (max-width:991px) {
+    .contenedor-principal-logo {
+        width: 100%;
+    }
+}
+
 @media (max-width:959px) {
     .contenedor-principal-logo {
         margin-left: 10px;
@@ -476,12 +482,11 @@ textarea[name="mensaje"] {
 }
 
 @media (max-width:575px) {
-    
     .contenedorBotonMenu {
         position: absolute;
         top: 0;
+        right: 0;
     }
-
 }
 
 @media (max-width:440px) {
@@ -519,11 +524,9 @@ textarea[name="mensaje"] {
 }
 
 @media (max-width:333px) {
-
     .contenidoSeccion div {
         height: auto;
     }
-    
 }
 
 
