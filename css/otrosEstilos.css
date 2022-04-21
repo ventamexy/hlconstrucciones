@@ -83,6 +83,10 @@ ol li {
     height: 0!important;
 }
 
+.font-size-18 {
+    font-size: 18px!important;
+}
+
 .color-blanco {
     color: #fff!important;
 }
@@ -207,6 +211,14 @@ ol li {
 }
 
 /* Footer */
+
+.correosCV p {
+    color: #000000;
+    font-weight: 600;
+    border-bottom: 1px solid #cc0001;
+    width: 50%;
+}
+
 .contenedor-border-ba {
     color: #fff;
     border-bottom: 3px solid #ffc527;
