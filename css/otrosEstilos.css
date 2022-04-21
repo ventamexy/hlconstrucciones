@@ -157,6 +157,11 @@ ol li {
 *
 */
 
+.tituloHeader {
+    letter-spacing: 24px;
+    line-height: 43px!important;
+}
+
 .breadcrumb {
     display: flex;
     justify-content: center;
