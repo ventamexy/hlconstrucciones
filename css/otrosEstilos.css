@@ -162,6 +162,10 @@ ol li {
     line-height: 43px!important;
 }
 
+.b-bottom-amarillo {
+    border-bottom: 1px solid #ffc527;
+}
+
 .breadcrumb {
     display: flex;
     justify-content: center;
