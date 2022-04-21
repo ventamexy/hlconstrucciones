@@ -143,6 +143,14 @@ ol li {
     align-items: flex-start!important;
 }
 
+.transform-r-180 {
+    transform: rotateX(180deg);
+}
+
+.transform-r-0 {
+    transform: rotateX(0deg); 
+}
+
 /**
 *
 * Header
@@ -402,7 +410,7 @@ textarea[name="mensaje"] {
     margin: 0px auto;
 }
 
-.irAbajo {
+.irAbajo, .irArriba {
     width: 60px;
     height: 60px;
     border-radius: 50%;

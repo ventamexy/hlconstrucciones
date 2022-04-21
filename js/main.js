@@ -25,18 +25,41 @@ window.addEventListener("load", function() {
 
 // Movimiento scroll
 $(document).on("scroll", function() {
-    let scrollY = $(this)[0].scrollingElement.scrollTop;
-    if ( scrollY >= 200 ) {
+
+    let scrollYPosicionActual = $(this)[0].scrollingElement.scrollTop;
+    if ( scrollYPosicionActual >= 200 ) {
         $(".navbar")[1].classList.add("menu-fijado");
     } else {
         $(".navbar")[1].classList.remove("menu-fijado");
     }
+
+    var scrollY = $("window").context.scrollingElement;
+    var alturaScrollY = scrollY.offsetHeight - scrollY.clientHeight;
+    
+    if ( alturaScrollY == scrollYPosicionActual ) {
+        $(".irAbajo i").addClass("transform-r-180");
+        $(".irAbajo").removeClass("irAbajo").addClass("irArriba");
+    } else {
+        $(".irAbajo i").removeClass("transform-r-180");
+        $(".irArriba").removeClass("irArriba").addClass("irAbajo");
+    }
+    
 });
 
 $(document).on("click", ".irAbajo", function(){
-    let alturaScrollY = $("window").context.scrollingElement.offsetHeight;
+
+    let scrollY = $("window").context.scrollingElement;
+    let alturaScrollY = scrollY.offsetHeight - scrollY.clientHeight;
     window.scroll({
         top: alturaScrollY,
+        behavior: 'smooth'
+    });
+    
+});
+
+$(document).on("click", ".irArriba", function(){
+    window.scroll({
+        top: 0,
         behavior: 'smooth'
     });
 });
