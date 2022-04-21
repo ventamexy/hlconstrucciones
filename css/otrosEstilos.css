@@ -481,6 +481,12 @@ textarea[name="mensaje"] {
     }
 }
 
+@media (max-width:550px) {
+    .tituloHeader {
+       letter-spacing: normal;
+    }
+}
+
 @media (max-width:575px) {
     .contenedorBotonMenu {
         position: absolute;
