@@ -103,6 +103,46 @@ ol li {
     overflow: hidden!important;
 }
 
+.p-10px {
+    padding: 10px;
+}
+
+.p-20px {
+    padding: 20px;
+}
+
+.p-30px {
+    padding: 30px;
+}
+
+.p-40px {
+    padding: 40px;
+}
+
+.b-bottom-1px {
+    border-bottom: 1px solid #fff;
+}
+
+.b-bottom-2px {
+    border-bottom: 2px solid #fff;
+}
+
+.b-bottom-3px {
+    border-bottom: 3px solid #fff;
+}
+
+.b-bottom-4px {
+    border-bottom: 4px solid #fff;
+}
+
+.b-bottom-5px {
+    border-bottom: 5px solid #fff;
+}
+
+.align-it-fx-st {
+    align-items: flex-start!important;
+}
+
 /**
 *
 * Header
