@@ -99,6 +99,10 @@ ol li {
     font-size: 14px!important;
 }
 
+.m-l-10 {
+    margin-left: 10px;
+}
+
 .m-l-33 {
     margin-left: 33px;
 }
@@ -386,8 +390,8 @@ textarea[name="mensaje"] {
 
 /* Estilos cambios */
 .logo-empresa {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
 }
 
@@ -501,6 +505,12 @@ textarea[name="mensaje"] {
         font-size: 30px;
     }
 
+}
+
+@media (max-width:443px) {
+    .correosCV p {
+        width: 100%;
+    }
 }
 
 @media (max-width:426px) {
