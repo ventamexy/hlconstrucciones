@@ -1,6 +1,25 @@
 .slick-slide {
+    width: 250px;
+    height: 250px;
     margin: 0px 20px;
     background-color: #fff;
+    position: relative;
+    width: 266px;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-slide span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.slick-slide img {
+    width: 80%;
+    margin: 0px auto;
 }
 
 .footer-img-slider {
@@ -10,4 +29,14 @@
     font-size: 20px;
     font-weight: bold;
     color: #fff;
+}
+
+/* Media querys */
+@media (max-width:654px) { 
+
+    .slick-slide {
+        width: 250px!important;
+        height: 250px!important;
+    }
+
 }
