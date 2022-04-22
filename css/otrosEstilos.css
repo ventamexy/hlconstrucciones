@@ -402,7 +402,7 @@ textarea[name="mensaje"] {
 #primary-menu, header {
     height: auto;
     background: #232323;
-    z-index: 3;
+    z-index: 5;
 }
 
 .transparent-header .navbar {
