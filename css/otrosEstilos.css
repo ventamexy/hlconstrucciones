@@ -70,6 +70,14 @@ ol li {
     text-transform: uppercase;
 }
 
+.color-amarillo-a {
+    color: #f8fa8a;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
 /* Estilos de contról */
 .w-30 {
     width: 30%;
@@ -157,6 +165,18 @@ ol li {
 
 .transform-r-0 {
     transform: rotateX(0deg); 
+}
+
+.titulo-card {
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 19px;
+    font-family: Arial, sans-serif;
+}
+
+.card-body img {
+    width: 100%;
 }
 
 /**
