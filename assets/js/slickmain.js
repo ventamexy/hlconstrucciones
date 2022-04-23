@@ -8,4 +8,3 @@ $('.slider-empresas').slick({
     slidesToShow: 3,
     slidesToScroll: 2
  });
- 

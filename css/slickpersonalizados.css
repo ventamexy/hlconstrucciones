@@ -47,6 +47,7 @@
 @media (max-width:654px) { 
 
     .slick-track {
+        display: flex;
         justify-content: center;
         align-items: center;
     }
