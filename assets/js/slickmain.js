@@ -1,10 +1,10 @@
 $('.multiple-items').slick({
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 700,
-    autoplay:true,
+    autoplay:false,
     autoplaySpeed: 2000,
-    arrows:false,
+    arrows:true,
     slidesToShow: 3,
     slidesToScroll: 1
  });

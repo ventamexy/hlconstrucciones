@@ -32,7 +32,17 @@
 }
 
 /* Media querys */
+@media (max-width:326px) {
+    .slick-track {
+        width: 1400px!important;
+    }
+}
+
 @media (max-width:654px) { 
+
+    .slick-track {
+        width: 1200px!important;
+    }
 
     .slick-slide {
         width: 250px!important;
