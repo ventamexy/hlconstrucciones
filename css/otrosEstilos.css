@@ -202,6 +202,10 @@ ol li {
     border-bottom: 1px solid #ffc527;
 }
 
+.b-bottom-amarillo-3px {
+    border-bottom: 3px solid #ffc527;
+}
+
 .breadcrumb {
     display: flex;
     justify-content: center;
@@ -512,6 +516,13 @@ textarea[name="mensaje"] {
     background-color: rgb(241 178 178);
     border: 1px solid rgb(241 178 178);
     color: #fff;
+}
+
+/* Sección estructuras metálicas */
+.seccion-informacion-estructura {
+    background-color: #ffc527;
+    color: #646464;
+    border-radius: 20px;
 }
 
 @media (max-width:991px) {
