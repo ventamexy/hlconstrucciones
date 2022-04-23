@@ -1,10 +1,10 @@
 $('.slider-empresas').slick({
-    dots: false,
+    dots: true,
     infinite: false,
     speed: 700,
-    autoplay:false,
+    autoplay:true,
     autoplaySpeed: 2000,
-    arrows:false,
+    arrows:true,
     slidesToShow: 3,
     slidesToScroll: 2
  });
