@@ -542,6 +542,10 @@ textarea[name="mensaje"] {
     font-size: 20px;
 }
 
+.font-family-montserrat {
+    font-family: 'Montserrat', sans-serif!important;
+}
+
 @media (max-width:991px) {
     .contenedor-principal-logo {
         width: 100%;
