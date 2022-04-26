@@ -546,6 +546,12 @@ textarea[name="mensaje"] {
     font-family: 'Montserrat', sans-serif!important;
 }
 
+
+/* Anchuras */
+.w-100px {
+    width: 100px!important;
+}
+
 @media (max-width:991px) {
     .contenedor-principal-logo {
         width: 100%;
