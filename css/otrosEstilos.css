@@ -343,7 +343,7 @@ ol li {
     font-size: 15px;
 }
 
-#frmConsulta input:focus, #frmConsulta textarea:focus {
+#frmConsulta input, #frmConsulta textarea {
     border: 1px solid #d7ca12;
     transition: 0.5s;
 }
