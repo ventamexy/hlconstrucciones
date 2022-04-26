@@ -525,6 +525,23 @@ textarea[name="mensaje"] {
     border-radius: 20px;
 }
 
+/* Font size */
+.font-size-13px {
+    font-size: 13px;
+}
+
+.font-size-16px {
+    font-size: 16px;
+}
+
+.font-size-18px {
+    font-size: 18px;
+}
+
+.font-size-20px {
+    font-size: 20px;
+}
+
 @media (max-width:991px) {
     .contenedor-principal-logo {
         width: 100%;
