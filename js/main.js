@@ -57,13 +57,14 @@ $(document).on("click", ".irArriba", function(){
 
 
 // Galeria
+
 $(document).on("mouseover", ".img-galeria", function() {
     let barraImagen = $(this)[0].childNodes[3];
-    barraImagen.classList.remove("barra-baja-desactivada");
+    barraImagen.classList.remove("barra-baja");
     barraImagen.classList.add("barra-baja-activa");
 });
   
 $(document).on("mouseout", ".img-galeria", function() {
     let barraImagen = $(".img-galeria .barra-baja-activa");
-    barraImagen.removeClass("barra-baja-activa").addClass("barra-baja-desactivada");
+    barraImagen.removeClass("barra-baja-activa").addClass("barra-baja");
 });

@@ -554,16 +554,57 @@ textarea[name="mensaje"] {
 
 
 /* Barra baja */
+.barra-baja {
+    display: none;
+}
+
 .barra-baja-activa {
     background: #a32f2f70;
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
     bottom: 0;
+    top: 0;
     width: 100%;
-    display: block;
+    min-height: 100%;
     padding: 0px;
+    transition: ease;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    /* animation-name: elevar-seccion;
+    animation-timing-function: ease;
+    animation-duration: 0.5s; */
+}
+
+.barra-baja p {
+    display: none;
+}
+
+.barra-baja-activa p {
+    display: block;
+    width: 80%;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+}
+
+@keyframes elevar-seccion {
+
+    from {
+        min-height: 0%;
+        max-height: 0%;
+    }
+
+    to {
+        min-height: 100%;
+        max-height: 100%;
+    }
+
 }
 
 @media (max-width:991px) {
