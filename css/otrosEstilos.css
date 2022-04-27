@@ -552,14 +552,17 @@ textarea[name="mensaje"] {
     width: 100px!important;
 }
 
+/* .img-galeria img:hover {
+    border: 5px solid #fff;
+} */
 
 /* Barra baja */
 .barra-baja {
     display: none;
 }
 
-.barra-baja-activa {
-    background: #a32f2f70;
+/* .barra-baja-activa {
+    background: #54add370;
     position: absolute;
     left: 0;
     right: 0;
@@ -572,16 +575,13 @@ textarea[name="mensaje"] {
     display: flex!important;
     justify-content: center;
     align-items: center;
-    /* animation-name: elevar-seccion;
-    animation-timing-function: ease;
-    animation-duration: 0.5s; */
-}
+} */
 
 .barra-baja p {
     display: none;
 }
 
-.barra-baja-activa p {
+/* .barra-baja-activa p {
     display: block;
     width: 80%;
     background-color: #fff;
@@ -591,7 +591,7 @@ textarea[name="mensaje"] {
     font-size: 20px;
     color: #000;
     font-style: italic;
-}
+} */
 
 @keyframes elevar-seccion {
 
