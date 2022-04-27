@@ -12,9 +12,6 @@ window.addEventListener("load", function() {
         }
     }
 
-
-    // 
-
 });
 
 // Movimiento scroll
