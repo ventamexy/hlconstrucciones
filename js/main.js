@@ -12,16 +12,6 @@ window.addEventListener("load", function() {
         }
     }
 
-    $(document).on("mouseover", ".filtr-item", function() {
-        let barraImagen = $(this)[0].childNodes[3];
-        barraImagen.classList.add("barra-baja-activa");
-    });
-      
-    $(document).on("mouseout", ".filtr-item", function() {
-        let barraImagen = $(".filtr-item .barra-baja");
-        barraImagen.removeClass("barra-baja-activa").addClass("barra-baja");
-    });
-
 });
 
 // Movimiento scroll
@@ -63,4 +53,17 @@ $(document).on("click", ".irArriba", function(){
         top: 0,
         behavior: 'smooth'
     });
+});
+
+
+// Galeria
+$(document).on("mouseover", ".img-galeria", function() {
+    let barraImagen = $(this)[0].childNodes[3];
+    barraImagen.classList.remove("barra-baja-desactivada");
+    barraImagen.classList.add("barra-baja-activa");
+});
+  
+$(document).on("mouseout", ".img-galeria", function() {
+    let barraImagen = $(".img-galeria .barra-baja-activa");
+    barraImagen.removeClass("barra-baja-activa").addClass("barra-baja-desactivada");
 });

@@ -25,7 +25,6 @@
 <!-- Style CSS -->
 <link rel="stylesheet" href="css/estilos.css">
 <link rel="stylesheet" href="css/otrosEstilos.css">
-<link rel="stylesheet" href="css/filterizrjs-otros.css">
 </head>
 <body class="body-black">
 <div class="preloader">
@@ -145,43 +144,26 @@
 				<h1>TRABAJOS REALIZADOS</h1>
 			</div>
 			<div class="row">
-				<ul class="menu-filteriz">
-					<!-- For filtering controls add -->
-					<li data-filter="all">Mostrar todo</li>
-					<li data-filter="1">1</li>
-					<li data-filter="2">2</li>
-					<li data-filter="3">3</li>
-				</ul>
-				<!-- To create a search control -->
-				<input 
-				type="text" 
-				class="form-control d-none"
-				name="filtr-search" 
-				placeholder="Buscar por nombre"
-				data-search="">
-				<!-- <input type="text" name="filtr-search" value="" placeholder="Your search" data-search=""> -->
-				<div class="contenedor-filterizr d-flex justify-content-center">
-					<div class="filter-container">
-						<div class="filtr-item" data-category="1" data-sort="Categoría 2">
-							<img src="img/filterizrimg/Nuevo proyecto (9).jpg" alt="sample"/>
-							<div class="barra-baja"></div>
-						</div>
-						<div class="filtr-item" data-category="2" data-sort="Categoría 3">
-							<img src="img/filterizrimg/Nuevo proyecto (3).jpg" alt="sample"/>
-							<div class="barra-baja"></div>
-						</div>
-						<div class="filtr-item" data-category="2" data-sort="Categoría 4">
-							<img src="img/filterizrimg/Nuevo proyecto (31).jpg" alt="sample"/>
-							<div class="barra-baja"></div>
-						</div>
-						<div class="filtr-item" data-category="3" data-sort="Categoría 5">
-							<img src="img/filterizrimg/Nuevo proyecto (6).jpg" alt="sample"/>
-							<div class="barra-baja"></div>
-						</div>
-						<div class="filtr-item" data-category="3" data-sort="Categoría 6">
-							<img src="img/filterizrimg/Nuevo proyecto (18).jpg" alt="sample"/>
-							<div class="barra-baja"></div>
-						</div>
+				<div class="row justify-content-between m-0">
+					<div class="col-12 col-md-6 col-lg-4 row mb-3 img-galeria position-relative">
+						<img src="img/filterizrimg/Nuevo proyecto (9).jpg" alt="sample"/>
+						<div class="barra-baja-desactivada"></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 row mb-3 img-galeria position-relative">
+						<img src="img/filterizrimg/Nuevo proyecto (3).jpg" alt="sample"/>
+						<div class="barra-baja-desactivada"></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 row mb-3 img-galeria position-relative">
+						<img src="img/filterizrimg/Nuevo proyecto (31).jpg" alt="sample"/>
+						<div class="barra-baja-desactivada"></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 row mb-3 img-galeria position-relative">
+						<img src="img/filterizrimg/Nuevo proyecto (6).jpg" alt="sample"/>
+						<div class="barra-baja-desactivada"></div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 row mb-3 img-galeria position-relative">
+						<img src="img/filterizrimg/Nuevo proyecto (18).jpg" alt="sample"/>
+						<div class="barra-baja-desactivada"></div>
 					</div>
 				</div>
 			</div>
@@ -505,8 +487,6 @@
 <script src="js/plugins.js?v=1.0.0"></script>
 <script src="js/functions.js?v=1.2.0"></script>
 <script src="assets/bootstrap/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="assets/js/plugins/filterizrjs/jquery-filterizr.min.js"></script>
-<script type="text/javascript" src="assets/js/iniciarlizar-filterizr.js"></script>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous"
 src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v10.0&appId=502654373424425&autoLogAppEvents=1"

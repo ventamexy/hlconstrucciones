@@ -552,6 +552,20 @@ textarea[name="mensaje"] {
     width: 100px!important;
 }
 
+
+/* Barra baja */
+.barra-baja-activa {
+    background: #a32f2f70;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    padding: 0px;
+}
+
 @media (max-width:991px) {
     .contenedor-principal-logo {
         width: 100%;
