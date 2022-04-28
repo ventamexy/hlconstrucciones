@@ -1429,6 +1429,8 @@ footer {
 	border: none;
 }
 
+/* Menú */
+
 .navbar-nav>li.active, .item-activo {
 	border-bottom: 2px solid #ffc527;
 }
