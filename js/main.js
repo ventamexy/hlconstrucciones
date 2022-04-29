@@ -63,6 +63,10 @@ $(document).on("click", ".irArriba", function(){
     });
 });
 
+// --- Prevent default
+$(document).on("click", ".contenedor-servicios li a", function() {
+    $(this)[0].preventDefault;
+});
 
 // Item activo
 

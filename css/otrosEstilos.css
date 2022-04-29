@@ -417,7 +417,12 @@ textarea[name="mensaje"] {
 .background-color-none::after {
     background-color: unset!important; 
     position: relative!important;
- }
+}
+
+.campoObligatorio {
+    color: rgb(236, 51, 51);
+    color: #fff;
+}
  
 
 /* Media querys */
