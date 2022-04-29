@@ -2,17 +2,22 @@ window.addEventListener("load", function() {
 
     // Selección de opción del menú en base a la sección actual.
     let pagina = window.location.pathname;
-    let arrayAhref = $("#navbarNavDarkDropdown li a");
-    arrayAhref.removeClass("item-activo");
-    for (var i = 0; i < arrayAhref.length; i++) {
-        let elemento = arrayAhref[i];
-        if ( elemento.pathname == pagina ) {
-            elemento.classList.add("item-activo");
-            // --- Se agrega la clase para no mostrar el borde inferior del elemento.
-            contenedorPadre = elemento.parentNode;
-            contenedorPadre.classList.add("background-color-none");
-            return;
+    if ( pagina != "/" ) {
+
+        let arrayAhref = $("#navbarNavDarkDropdown li a");
+        arrayAhref.removeClass("item-activo");
+        for (var i = 0; i < arrayAhref.length; i++) {
+            let elemento = arrayAhref[i];
+            if ( elemento.pathname == pagina ) {
+                elemento.classList.add("item-activo");
+                // --- Se agrega la clase para no mostrar el borde inferior del elemento.
+                contenedorPadre = elemento.parentNode;
+                contenedorPadre.classList.add("background-color-none");
+                return;
+            }
+            
         }
+
     }
 
 });
@@ -60,14 +65,15 @@ $(document).on("click", ".irArriba", function(){
 
 
 // Item activo
-$(document).on("mouseover", "#navbarNavDarkDropdown ul li a", function(){
-    // let elementoA = $(this);
-    // let contenedorPadre = null;
-    // if ( elementoA[0].className == "item-activo" ) {
-    //     contenedorPadre = elementoA[0].parentNode;
-    //     contenedorPadre.classList.add("background-color-none");
-    // }
-});
+
+// $(document).on("mouseover", "#navbarNavDarkDropdown ul li a", function(){
+//     let elementoA = $(this);
+//     let contenedorPadre = null;
+//     if ( elementoA[0].className == "item-activo" ) {
+//         contenedorPadre = elementoA[0].parentNode;
+//         contenedorPadre.classList.add("background-color-none");
+//     }
+// });
 
 // Galeria
 
