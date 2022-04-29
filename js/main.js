@@ -22,6 +22,7 @@ window.addEventListener("load", function() {
 
 });
 
+
 // Movimiento scroll
 $(document).on("scroll", function() {
 
@@ -45,15 +46,14 @@ $(document).on("scroll", function() {
     
 });
 
-$(document).on("click", ".irAbajo", function(){
 
+$(document).on("click", ".irAbajo", function(){
     let scrollY = $("window").context.scrollingElement;
     let alturaScrollY = scrollY.offsetHeight - scrollY.clientHeight;
     window.scroll({
         top: alturaScrollY,
         behavior: 'smooth'
     });
-    
 });
 
 $(document).on("click", ".irArriba", function(){
