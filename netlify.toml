@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/*"
+  from = "www.hlconstrucciones.netlify.app"
   to = "https://hlconstrucciones.com"
   status = 301
   force = true
