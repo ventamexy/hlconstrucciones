@@ -3,9 +3,11 @@
   to = "https://hlconstrucciones.com"
   status = 302
   force = true
+  headers = {X-From = "Netlify"
 
 [[redirects]]
   from = "https://hlconstrucciones.netlify.app"
   to = "https://hlconstrucciones.com:splat"
   status = 301
   force = true
+  headers = {X-From = "Netlify"
