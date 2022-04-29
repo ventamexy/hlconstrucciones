@@ -8,6 +8,9 @@ window.addEventListener("load", function() {
         let elemento = arrayAhref[i];
         if ( elemento.pathname == pagina ) {
             elemento.classList.add("item-activo");
+            // --- Se agrega la clase para no mostrar el borde inferior del elemento.
+            contenedorPadre = elemento.parentNode;
+            contenedorPadre.classList.add("background-color-none");
             return;
         }
     }
@@ -55,6 +58,16 @@ $(document).on("click", ".irArriba", function(){
     });
 });
 
+
+// Item activo
+$(document).on("mouseover", "#navbarNavDarkDropdown ul li a", function(){
+    // let elementoA = $(this);
+    // let contenedorPadre = null;
+    // if ( elementoA[0].className == "item-activo" ) {
+    //     contenedorPadre = elementoA[0].parentNode;
+    //     contenedorPadre.classList.add("background-color-none");
+    // }
+});
 
 // Galeria
 

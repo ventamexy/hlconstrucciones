@@ -414,6 +414,12 @@ textarea[name="mensaje"] {
     align-items: center;
 }   
 
+.background-color-none::after {
+    background-color: unset!important; 
+    position: relative!important;
+ }
+ 
+
 /* Media querys */
 
 @media (max-width:991px) {
