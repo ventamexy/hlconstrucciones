@@ -3,3 +3,9 @@
   to = "https://hlconstrucciones.com:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://hlconstrucciones.netlify.app"
+  to = "https://hlconstrucciones.com:splat"
+  status = 301
+  force = true
