@@ -1,6 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-
-https://www.hlconstrucciones.netlify.app https://hlconstrucciones.com:splat 301!
-https://www.hlconstrucciones.netlify.app https://hlconstrucciones.com
-http://www.hlconstrucciones.netlify.app https://hlconstrucciones.com
-https://hlconstrucciones.netlify.app/* https://hlconstrucciones.com/:splat 301!
