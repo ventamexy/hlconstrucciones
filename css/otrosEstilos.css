@@ -622,6 +622,14 @@ textarea[name="mensaje"] {
 
 }
 
+@media( max-width:1459px ) {
+    
+    .navbar-nav>li>a {
+        line-height: unset!important;
+    }
+
+}
+
 @media (max-width:991px) {
     .contenedor-principal-logo {
         width: 100%;
