@@ -46,7 +46,6 @@ $(document).on("scroll", function() {
     
 });
 
-
 $(document).on("click", ".irAbajo", function(){
     let scrollY = $("window").context.scrollingElement;
     let alturaScrollY = scrollY.offsetHeight - scrollY.clientHeight;
