@@ -1418,7 +1418,7 @@ footer {
 
 .navbar-nav>li>a {
 	color: #fff;
-	line-height: 94px;
+	/* line-height: 94px; */
 	padding: 0;
 }
 

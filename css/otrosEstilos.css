@@ -405,6 +405,10 @@ textarea[name="mensaje"] {
     transition: 0.5s;
 }
 
+.menuPrincipal li {
+    padding: 10px;
+}
+
 .informacion-servicios div {
     background-color: #ffa624!important;
     font-size: 20px;
@@ -622,18 +626,18 @@ textarea[name="mensaje"] {
 
 }
 
+@media (max-width:991px) {
+    .contenedor-principal-logo {
+        width: 100%;
+    }
+}
+
 @media( max-width:1459px ) {
     
     .navbar-nav>li>a {
         line-height: unset!important;
     }
 
-}
-
-@media (max-width:991px) {
-    .contenedor-principal-logo {
-        width: 100%;
-    }
 }
 
 @media (max-width:959px) {
