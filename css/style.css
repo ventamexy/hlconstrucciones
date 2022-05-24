@@ -1432,7 +1432,7 @@ footer {
 /* Menú */
 
 .navbar-nav>li.active, .item-activo {
-	border-bottom: 2px solid #ffc527;
+	border-bottom: 3px solid #ffc527;
 }
 
 .navbar-nav>li.active>ul {
@@ -1445,7 +1445,7 @@ footer {
 }
 
 /* Menu Level #1 */
-.navbar-nav>li:after {
+/* .navbar-nav>li:after {
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -1462,7 +1462,7 @@ footer {
 	-moz-transform: translateY(-10px);
 	-o-transform: translateY(-10px);
 	-ms-transform: translateY(-10px);
-}
+} */
 
 .navbar-nav>li:hover::after {
 	height: 2px;
